@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="title">
+            Registration Form
+        </div>
+        <div class="form">
+            <div id="Student_details">
+                <h2>Student Details</h2>
+                <div class="input_field">
+                    <label>First Name*</label>
+                    <input type="text" class="input">
+                </div>
+                <div class="input_field">
+                    <label>Mid Name</label>
+                    <input type="text" class="input">
+                </div>
+                <div class="input_field">
+                    <label>Last Name*</label>
+                    <input type="text" class="input">
+                </div>
+                <div class="input_field">
+                    <label>DOB*</label>
+                    <input type="date" class="input">
+                </div>
+                <div class="input_field">
+                    <label>Gender*</label>
+                    <div class="custom_select">
+                        <select name="gender" id="">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="input_field">
+                    <label>Caste*</label>
+                    <div class="custom_select">
+                        <select name="caste" id="">
+                            <option value="general">General</option>
+                            <option value="sc/st">SC/ST</option>
+                            <option value="obc">OBC</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="input_field">
+                    <label>Address*</label>
+                    <textarea name="address" class="textarea" ></textarea>
+                </div>
+                <div class="input_field">
+                    <label>Postal Code*</label>
+                    <input type="text" class="input">
+                </div>
+                <div class="input_field">
+                    <label>Phone*</label>
+                    <input type="text" class="input">
+                </div>
+                <div class="input_field">
+                    <label>Email*</label>
+                    <input type="email" class="input">
+                </div>
+            </div>
+            <div id="education_qualification">
+                <h2>Education Qualification</h2>
+                <div class="input_field">
+                    <label>Highest Qualification*</label>
+                    <select name="qualification" id="">
+                        <option value="higher seconday">Higher Secondary</option>
+                        <option value="bachelor">Bachelor</option>
+                    </select>
+                </div>
+                <div class="input_field">
+                    <label>Higher Secondary Board*</label>
+                    <div class="custom_select">
+                        <select name="hsboard" id="">
+                            <option value="wbchse">WBCHSE</option>
+                            <option value="cbse">CBSE</option>
+                            <option value="isc">ISC</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="input_field">
+                    <label>Class XII Percentage*</label>
+                    <input type="text" class="input">
+                </div>
+                <div class="input_field">
+                    <label>Marks in Mathematics*</label>
+                    <input type="text" class="input">
+                </div>
+                <div class="input_field">
+                    <label>Marks in CS*</label>
+                    <input type="text" class="input">
+                </div>
+                <div class="input_field">
+                    <label>Marks in English*</label>
+                    <input type="text" class="input">
+                </div>
+            </div>
+            <div class="input_field">
+                <label>Secondary Board*</label>
+                <div class="custom_select">
+                    <select name="sboard" id="">
+                        <option value="wbbse">WBBSE</option>
+                        <option value="cbse">CBSE</option>
+                        <option value="icse">ICSE</option>
+                    </select>
+                </div>
+            </div>
+            <div class="input_field">
+                <label>Class X Percentage*</label>
+                <input type="text" class="input">
+            </div>
+            <div class="input_field terms">
+                <label class="check">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <p>I hereby declare that all the information given by me is correct</p>
+            </div>
+            <div class="input_field">
+                <input type="submit" value="Register" class="btn">
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
